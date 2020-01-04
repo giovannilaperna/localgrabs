@@ -1,0 +1,40 @@
+{
+  "name": "localgrabr",
+  "version": "1.0.0",
+  "description": "localbitcoins + grabr.io",
+  "author": "Giovanni La Perna",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "lambda": "netlify-lambda serve api --port=34567"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.4",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/moment": "^1.4.0",
+    "blockcypher-promise": "^0.3.0",
+    "bufferutil": "^4.0.1",
+    "cookie-universal-nuxt": "^2.0.19",
+    "encoding": "^0.1.12",
+    "faunadb": "^2.9.4",
+    "lodash.filter": "^4.6.0",
+    "lodash.find": "^4.6.0",
+    "lodash.sortby": "^4.7.0",
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.17",
+    "puppeteer-core": "^2.0.0",
+    "qrcode": "^1.4.4",
+    "qs": "^6.9.1",
+    "utf-8-validate": "^5.0.2",
+    "vue-qrcode": "^0.2.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "netlify-lambda": "^1.6.3",
+    "prettier": "^1.16.4"
+  }
+}

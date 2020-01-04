@@ -1,0 +1,13 @@
+[build]
+  publish = "dist"
+  command = "netlify-lambda build api && nuxt build"
+  functions = "./functions"
+
+[build.environment]
+  FAUNADB_KEY       = ''
+  NOMICS_KEY        = ''
+  BLOCKCYPHER_TOKEN = ''
+  XPUB              = ''
+  CHAIN             = 'test3'
+  WALLET_NAME       = 'localgrabs'
+  WEBHOOK_AUTH      = ''
